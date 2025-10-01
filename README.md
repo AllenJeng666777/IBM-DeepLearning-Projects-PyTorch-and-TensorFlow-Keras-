@@ -31,8 +31,11 @@ IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
 │── README.md                               # Project overview & documentation  
 
 │── Final_Project_Classification_and_Captioning-v1.ipynb      # Course 1: Intro to Deep Learning & Neural Networks (Keras)  
+
 │── Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb      # Course 2: Deep Learning with Keras & TensorFlow  
+
 │── Final_Project_League_of_Legends_Match_Predictor.ipynb     # Course 3: Intro to Neural Networks with PyTorch  
+
 │── Final_Project_FashionMNISTProject.ipynb                   # Course 4: Deep Learning with PyTorch  
 │  
 └── AI-Capstone-DeepLearning/                                 # Course 5: AI Capstone Project with Deep Learning  
