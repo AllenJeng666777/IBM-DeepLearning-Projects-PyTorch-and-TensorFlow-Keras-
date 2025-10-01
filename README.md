@@ -104,15 +104,23 @@ Portfolio of **deep learning projects** from the **IBM Professional Certificate*
 
 ---
 
-### Course 5: AI Capstone Project with Deep Learning  
+### Course 5: AI Capstone Project with Deep Learning
 **Folder:** `AI-Capstone-DeepLearning/`  
 **Project Title:** *Final Project: CNN + Vision Transformer Integration for Land Classification*  
-**Goal:** Integrate knowledge of Keras, PyTorch, and Vision Transformers into a hybrid **CNN+ViT model** for land classification.  
-**Highlights:**
-- Benchmarked **data pipelines** in Keras and PyTorch  
-- Built and compared **classifiers** in both frameworks  
-- Implemented **Vision Transformers** (Keras & PyTorch)  
-- Final capstone: **CNN + ViT integration** for land classification  
-**Skills:** CNNs, RNNs, Transformers, multimodal DL, model benchmarking  
+**Goal:** Apply Keras, PyTorch, and Vision Transformers to a land classification task, integrating CNN and ViT approaches.  
+
+**Included:**  
+- `DataLoading_Augmentation_Keras.ipynb` 
+- `DataLoading_Augmentation_PyTorch.ipynb`
+- `Classifier_Keras_Training_Evaluation.ipynb` 
+- `Classifier_PyTorch_Training_Evaluation.ipynb` 
+- `Keras_vs_PyTorch_Model_Comparison.ipynb` 
+- `VisionTransformer_Keras.ipynb` 
+- `VisionTransformer_PyTorch.ipynb` 
+- `LandClassification_CNN_ViT_Integration.ipynb` 
+
+**Highlights:** Built and compared classifiers in both frameworks, implemented Vision Transformers, and integrated CNN + ViT for improved land classification performance.  
+**Skills:** CNNs, Transformers, benchmarking, PyTorch & TensorFlow ecosystems
+
 
 ---
