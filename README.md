@@ -19,20 +19,14 @@ Portfolio of **5 deep learning projects** from the **IBM Professional Certificat
 ## 📁 Repository Structure
 
 IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
+│── README.md                               # Project overview & documentation  
+│── Data_Loading_Memory_vs_Generator.ipynb  # Benchmarking memory vs generator data loading  
+│── Waste_Classification_TransferLearning.ipynb  # Waste image classification with transfer learning  
+│── FashionMNIST_ImageClassification.ipynb  # CNN for Fashion-MNIST dataset  
+│── LoL_Match_Prediction.ipynb              # League of Legends match outcome predictor  
+│── Image_Classification_and_Captioning.ipynb  # CNN + RNN for image caption generation  
+│── requirements.txt                        # Dependencies and environment setup  
 
-│── README.md
-
-│── Data_Loading_Memory_vs_Generator.ipynb
-
-│── Waste_Classification_TransferLearning.ipynb
-
-│── FashionMNIST_ImageClassification.ipynb
-
-│── LoL_Match_Prediction.ipynb
-
-│── Image_Classification_and_Captioning.ipynb
-
-│── requirements.txt
 
 ## 📝 Project Details
 
