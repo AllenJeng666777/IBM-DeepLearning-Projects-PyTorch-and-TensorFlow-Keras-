@@ -36,14 +36,14 @@ IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
 │── Final_Project_FashionMNISTProject.ipynb                   # Course 4: Deep Learning with PyTorch  
 │  
 └── AI-Capstone-DeepLearning/                                 # Course 5: AI Capstone Project with Deep Learning  
-    │── DataLoading_Augmentation_Keras.ipynb                  # Lab: Data Loading & Augmentation using Keras  
-    │── DataLoading_Augmentation_PyTorch.ipynb                # Lab: Data Loading & Augmentation using PyTorch  
-    │── Classifier_Keras_Training_Evaluation.ipynb            # Lab: Train and Evaluate a Keras Classifier  
-    │── Classifier_PyTorch_Training_Evaluation.ipynb          # Lab: Implement and Test a PyTorch Classifier  
-    │── Keras_vs_PyTorch_Model_Comparison.ipynb               # Lab: Comparative Analysis of Keras and PyTorch Models  
-    │── VisionTransformer_Keras.ipynb                         # Lab: Vision Transformers in Keras  
-    │── VisionTransformer_PyTorch.ipynb                       # Lab: Vision Transformers in PyTorch  
-    │── LandClassification_CNN_ViT_Integration.ipynb          # Lab: Land Classification with CNN–ViT Integration  
+    │── DataLoading_Augmentation_Keras.ipynb                   
+    │── DataLoading_Augmentation_PyTorch.ipynb                
+    │── Classifier_Keras_Training_Evaluation.ipynb            
+    │── Classifier_PyTorch_Training_Evaluation.ipynb          
+    │── Keras_vs_PyTorch_Model_Comparison.ipynb               
+    │── VisionTransformer_Keras.ipynb                         
+    │── VisionTransformer_PyTorch.ipynb                       
+    │── LandClassification_CNN_ViT_Integration.ipynb          
 
 ---
 
