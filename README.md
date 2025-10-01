@@ -1,94 +1,99 @@
 # IBM Deep Learning Projects (PyTorch & TensorFlow/Keras)
 
-Portfolio of **5 deep learning projects** from the **IBM Professional Certificate**, covering **CNNs, RNNs, transfer learning, data pipelines, multimodal vision+NLP captioning, and tabular prediction** using **PyTorch** and **TensorFlow/Keras**.  
+Portfolio of **deep learning projects** from the **IBM Professional Certificate**, covering **CNNs, RNNs, transfer learning, data pipelines, multimodal vision+NLP captioning, and tabular prediction** using **PyTorch** and **TensorFlow/Keras**.  
 
-**Certificate:** [Verify here](https://drive.google.com/file/d/1bgyHnU4WGepZEyGCnZWE5xk5G9e4QnSD/view?usp=sharing)
+**Certificate:** [Verify here](https://coursera.org/verify/professional-cert/RR4KSSYC8RG9)
 
 ---
 
-## 📂 Projects
+## 📚 Course Projects
 
-1. **Data Loading: Memory vs Generators**  
-2. **Waste Classification (Transfer Learning)**  
-3. **Fashion-MNIST Image Classification**  
-4. **League of Legends Match Prediction**  
-5. **Image Classification & Captioning**
+1. **Introduction to Deep Learning & Neural Networks with Keras** → *Image Classification & Captioning*  
+2. **Deep Learning with Keras and TensorFlow** → *Waste Classification (Transfer Learning)*  
+3. **Introduction to Neural Networks and PyTorch** → *League of Legends Match Prediction*  
+4. **Deep Learning with PyTorch** → *Fashion-MNIST Image Classification*  
+5. **AI Capstone Project with Deep Learning** → *CNN, RNN, and Vision Transformer integration*  
 
 ---
 
 ## 📁 Repository Structure
 
-IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
-
+IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/  
 │── README.md                               # Project overview & documentation  
 
-│── Data_Loading_Memory_vs_Generator.ipynb  # Benchmarking memory vs generator data loading  
+│── Final_Project_Classification_and_Captioning-v1.ipynb      # Course 1: Intro to Deep Learning & Neural Networks (Keras)  
+│── Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb      # Course 2: Deep Learning with Keras & TensorFlow  
+│── Final_Project_League_of_Legends_Match_Predictor.ipynb     # Course 3: Intro to Neural Networks with PyTorch  
+│── FashionMNISTProject.ipynb                                 # Course 4: Deep Learning with PyTorch  
+│  
+└── AI-Capstone-DeepLearning/                                 # Course 5: AI Capstone Project with Deep Learning  
+    │── DataLoading_Augmentation_Keras.ipynb                  # Data loading & augmentation (Keras)  
+    │── DataLoading_Augmentation_PyTorch.ipynb                # Data loading & augmentation (PyTorch)  
+    │── Classifier_Keras_Training_Evaluation.ipynb            # Keras classifier training & evaluation  
+    │── Classifier_PyTorch_Training_Evaluation.ipynb          # PyTorch classifier training & evaluation  
+    │── Keras_vs_PyTorch_Model_Comparison.ipynb               # Comparative analysis of Keras vs PyTorch models  
+    │── VisionTransformer_Keras.ipynb                         # Vision Transformer in Keras  
+    │── VisionTransformer_PyTorch.ipynb                       # Vision Transformer in PyTorch  
+    │── LandClassification_CNN_ViT_Integration.ipynb          # Capstone: CNN + ViT integration for land classification  
+│  
+│── requirements.txt                                          # Dependencies and environment setup  
 
-│── Waste_Classification_TransferLearning.ipynb  # Waste image classification with transfer learning  
-
-│── FashionMNIST_ImageClassification.ipynb  # CNN for Fashion-MNIST dataset  
-
-│── LoL_Match_Prediction.ipynb              # League of Legends match outcome predictor  
-
-│── Image_Classification_and_Captioning.ipynb  # CNN + RNN for image caption generation  
-
-│── requirements.txt                        # Dependencies and environment setup  
-
+---
 
 ## 📝 Project Details
 
-### 1) Data Loading: Memory vs Generators
-**File:** `Data_Loading_Memory_vs_Generator.ipynb`  
-**Goal:** Compare in-memory loading vs generator/`DataLoader` pipelines for large image datasets.  
+### Course 1: Introduction to Deep Learning & Neural Networks with Keras
+**File:** `Final_Project_Classification_and_Captioning-v1.ipynb`  
+**Goal:** Build an image classifier and integrate with a captioning model.  
 **Highlights:**
-- Measures **RAM usage**, **throughput**, and **epoch time**  
-- Implements **augmentation** and on-the-fly preprocessing  
-- Provides **reproducible timing/benchmark cells**  
-**Skills:** input pipelines, performance benchmarking, data augmentation  
+- **CNN encoder + RNN decoder** pipeline  
+- Tokenization, padding, and teacher forcing  
+- Evaluated with **BLEU / perplexity** and sample captions  
+**Skills:** CNNs, RNNs, NLP basics, multimodal DL  
 
 ---
 
-### 2) Waste Classification (Transfer Learning)
-**File:** `Waste_Classification_TransferLearning.ipynb`  
-**Goal:** Classify waste images (e.g., paper/plastic/metal) using transfer learning & fine-tuning.  
+### Course 2: Deep Learning with Keras and TensorFlow
+**File:** `Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb`  
+**Goal:** Apply **transfer learning and fine-tuning** to classify waste product images.  
 **Highlights:**
-- Uses a **pretrained CNN** (ResNet/EfficientNet)  
-- Trains classifier head, then **unfreezes top layers** for fine-tuning  
-- Evaluates with **accuracy, confusion matrix, and per-class metrics**  
-**Skills:** transfer learning, fine-tuning, class imbalance handling, model evaluation  
+- Used **pretrained CNN** (ResNet/EfficientNet)  
+- Trained custom classifier head, then unfreezed top layers for fine-tuning  
+- Evaluated with accuracy, confusion matrix, per-class metrics  
+**Skills:** Transfer learning, fine-tuning, model evaluation  
 
 ---
 
-### 3) Fashion-MNIST Image Classification
-**File:** `FashionMNIST_ImageClassification.ipynb`  
-**Goal:** Build a CNN to classify **Fashion-MNIST apparel categories**.  
-**Highlights:**
-- Baseline **MLP → CNN improvement**  
-- Applies **Dropout/BatchNorm** and **learning-rate scheduling**  
-- Provides **loss/accuracy curves & misclassification plots**  
-**Skills:** CNNs, training curves, regularization, error analysis  
-
----
-
-### 4) League of Legends Match Prediction
-**File:** `LoL_Match_Prediction.ipynb`  
-**Goal:** Predict match outcomes from tabular/engineered features.  
+### Course 3: Introduction to Neural Networks and PyTorch
+**File:** `Final_Project_League_of_Legends_Match_Predictor.ipynb`  
+**Goal:** Predict match outcomes in **League of Legends** using tabular features.  
 **Highlights:**
 - **Feature engineering** and normalization  
-- Model comparison: **Logistic Regression, XGBoost, MLP**  
-- Produces **calibrated probabilities** and AUC/ROC evaluation  
-**Skills:** tabular ML + DL, feature engineering, model comparison, calibration  
+- Compared models: Logistic Regression, XGBoost, PyTorch MLP  
+- Calibrated probabilities with AUC/ROC metrics  
+**Skills:** Tabular ML + DL, feature engineering, model comparison  
 
 ---
 
-### 5) Image Classification & Captioning
-**File:** `Image_Classification_and_Captioning.ipynb`  
-**Goal:** Combine an **image classifier (CNN)** with a **caption generator (RNN/LSTM/Transformer)**.  
+### Course 4: Deep Learning with PyTorch
+**File:** `FashionMNISTProject.ipynb`  
+**Goal:** Build and train a **CNN** to classify Fashion-MNIST clothing images.  
 **Highlights:**
-- **Image encoder (CNN)** + **caption decoder (RNN/LSTM/Transformer)**  
-- Implements **tokenization, padding, and teacher forcing**  
-- Reports **BLEU/perplexity** and qualitative sample captions  
-**Skills:** multimodal DL, sequence modeling, NLP tokenization, evaluation  
+- Baseline **MLP → CNN improvement**  
+- Applied **Dropout / BatchNorm / LR scheduling**  
+- Visualized loss/accuracy curves and misclassified samples  
+**Skills:** CNNs, regularization, error analysis  
 
 ---
 
+### Course 5: AI Capstone Project with Deep Learning
+**Folder:** `AI-Capstone-DeepLearning/`  
+**Goal:** Integrate knowledge of Keras, PyTorch, and Vision Transformers into a hybrid **CNN+ViT model** for land classification.  
+**Highlights:**
+- Benchmarked **data pipelines** in Keras and PyTorch  
+- Built and compared **classifiers** in both frameworks  
+- Implemented **Vision Transformers** (Keras & PyTorch)  
+- Final capstone: **CNN + ViT integration** for land classification  
+**Skills:** CNNs, RNNs, Transformers, multimodal DL, model benchmarking  
+
+---
