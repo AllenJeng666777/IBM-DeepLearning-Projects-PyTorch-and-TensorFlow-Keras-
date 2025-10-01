@@ -39,6 +39,7 @@ Portfolio of **deep learning projects** from the **IBM Professional Certificate*
 
 │── 📄 Final_Project_FashionMNISTProject.ipynb # Course 4: Deep Learning with PyTorch
 │
+
 📂 AI-Capstone-DeepLearning/ # Course 5: AI Capstone Project with Deep Learning
 
 │── 📄 DataLoading_Augmentation_Keras.ipynb
