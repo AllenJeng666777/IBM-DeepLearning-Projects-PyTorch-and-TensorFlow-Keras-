@@ -27,8 +27,6 @@ IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
 │── Image_Classification_and_Captioning.ipynb
 │── requirements.txt
 
----
-
 ## 📝 Project Details
 
 ### 1) Data Loading: Memory vs Generators
