@@ -63,51 +63,44 @@ Portfolio of **deep learning projects** from the **IBM Professional Certificate*
 
 ## 📝 Project Details
 
-### Course 1: Introduction to Deep Learning & Neural Networks with Keras  
+### Course 1: Introduction to Deep Learning & Neural Networks with Keras
 **Project Title:** *Final Project: Classification and Captioning Aircraft Damage Using Pretrained Models*  
 **File:** `Final_Project_Classification_and_Captioning-v1.ipynb`  
-**Goal:** Use pretrained models to classify aircraft damage and generate captions.  
-**Highlights:**
-- **CNN encoder + RNN decoder** pipeline  
-- Tokenization, padding, teacher forcing for sequence generation  
-- Evaluated with **BLEU / perplexity** and sample captions  
-**Skills:** CNNs, RNNs, NLP basics, multimodal vision-language DL  
+**Goal:** Classify aircraft damage types using **pretrained CNNs** (ResNet, VGG, Inception).  
+**Highlights:** Transfer learning, data augmentation, accuracy/loss curves, confusion matrix, and label captioning.  
+**Skills:** CNNs, transfer learning, image classification
+
+
 
 ---
 
-### Course 2: Deep Learning with Keras and TensorFlow  
+### Course 2: Deep Learning with Keras and TensorFlow
 **Project Title:** *Final Project: Classify Waste Products Using Transfer Learning and Fine-Tuning*  
 **File:** `Final_Proj-Classify_Waste_Products_Using_TL_FT.ipynb`  
-**Goal:** Apply **transfer learning** to classify waste product images (paper, plastic, metal, etc.).  
-**Highlights:**
-- Used **pretrained CNN** (ResNet/EfficientNet)  
-- Trained custom classifier head, then unfreezed top layers for fine-tuning  
-- Evaluated with accuracy, confusion matrix, per-class metrics  
-**Skills:** Transfer learning, fine-tuning, model evaluation  
+**Goal:** Classify waste images (e.g., paper, plastic, metal) using **transfer learning** with pretrained CNNs.  
+**Highlights:** Data augmentation, feature extraction, fine-tuning top layers, evaluation with confusion matrix & class accuracy.  
+**Skills:** Transfer learning, fine-tuning, model evaluation, TensorFlow/Keras
+
 
 ---
 
-### Course 3: Introduction to Neural Networks and PyTorch  
+### Course 3: Introduction to Neural Networks and PyTorch
 **Project Title:** *Final Project: League of Legends Match Predictor*  
 **File:** `Final_Project_League_of_Legends_Match_Predictor.ipynb`  
-**Goal:** Predict match outcomes in **League of Legends** using tabular features.  
-**Highlights:**
-- **Feature engineering** and normalization  
-- Compared models: Logistic Regression, XGBoost, PyTorch MLP  
-- Calibrated probabilities with AUC/ROC metrics  
-**Skills:** Tabular ML + DL, feature engineering, model comparison  
+**Goal:** Predict outcomes of League of Legends matches using tabular gameplay data.  
+**Highlights:** Feature engineering, data normalization, PyTorch MLP training, evaluation with accuracy, confusion matrix, and ROC/PR curves.  
+**Skills:** Tabular ML + DL, feature engineering, PyTorch modeling, evaluation metrics
+
 
 ---
 
-### Course 4: Deep Learning with PyTorch  
+### Course 4: Deep Learning with PyTorch
 **Project Title:** *Final Project: Fashion-MNIST Image Classification*  
 **File:** `Final_Project_FashionMNISTProject.ipynb`  
-**Goal:** Build and train a **CNN** to classify Fashion-MNIST clothing images.  
-**Highlights:**
-- Baseline **MLP → CNN improvement**  
-- Applied **Dropout / BatchNorm / LR scheduling**  
-- Visualized loss/accuracy curves and misclassified samples  
-**Skills:** CNNs, regularization, error analysis  
+**Goal:** Build and train a PyTorch CNN to classify Fashion-MNIST clothing images.  
+**Highlights:** Dataset preprocessing, custom Dataset class, CNN architecture, training loop, accuracy/loss curves, and prediction visualization.  
+**Skills:** CNNs, PyTorch training pipeline, dataset handling, evaluation
+
 
 ---
 
