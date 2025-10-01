@@ -25,7 +25,7 @@ IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
 │── FashionMNIST_ImageClassification.ipynb
 │── LoL_Match_Prediction.ipynb
 │── Image_Classification_and_Captioning.ipynb
-└── requirements.txt
+│── requirements.txt
 
 ---
 
