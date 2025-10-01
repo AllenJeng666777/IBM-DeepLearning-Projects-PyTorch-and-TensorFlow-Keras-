@@ -44,8 +44,6 @@ IBM-DeepLearning-Projects-PyTorch-and-TensorFlow-Keras/
     │── VisionTransformer_Keras.ipynb                         # Lab: Vision Transformers in Keras  
     │── VisionTransformer_PyTorch.ipynb                       # Lab: Vision Transformers in PyTorch  
     │── LandClassification_CNN_ViT_Integration.ipynb          # Lab: Land Classification with CNN–ViT Integration  
-│  
-│── requirements.txt                                          # Dependencies and environment setup  
 
 ---
 
